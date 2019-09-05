@@ -14,12 +14,12 @@ This model will filter out the spam emails based on the words it is containing. 
 * And finally count the occurence of each word in one email for whole dataset.
   
 ## Making data Ready for Training
-  A sparse matrix is created where each row contains the count of occurence of each word in email and vocabulary.
-  Used Bayes Theorem.
-  Then probability were calculated for SPAM emails, non spam emails.
-  Probabilty of a word in spam email.
-  Probability of a word in non spam email.
-  Probability of a word being occur in the mail.
+* A sparse matrix is created where each row contains the count of occurence of each word in email and vocabulary.
+* Used Bayes Theorem.
+* Then probability were calculated for SPAM emails, non spam emails.
+* Probabilty of a word in spam email.
+* Probability of a word in non spam email.
+* Probability of a word being occur in the mail.
   
 ## Testing the model
   Model has been test on test data and performed very good with a f-1 score of 0.97
